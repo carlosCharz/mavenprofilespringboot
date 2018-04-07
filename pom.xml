@@ -39,6 +39,9 @@
 	<profiles>
 		<profile>
 			<id>local</id>
+			<activation>
+			   <activeByDefault>true</activeByDefault>
+		    </activation>
 			<properties>
 				<overrides.props.file>local.overrides.properties</overrides.props.file>
 				<current.profile>local</current.profile>

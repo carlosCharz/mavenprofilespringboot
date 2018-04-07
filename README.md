@@ -55,6 +55,10 @@ http://localhost:8080/mvnspringboot/params/all
 * [How to install Jenkins 2.x in AWS](https://github.com/carlosCharz/installjenkinsaws)
 * [Configure Jenkins 2.x with Tomcat 8.x in AWS](https://github.com/carlosCharz/configurejenkinstomcat)
 
+## Troubleshooting
+
+* All the build phase is done correctly from Eclipse or CLI (Command Line Interface) for the 'dev' profile with the command 'clean install -Pdev'. The war file is created with the variables from the desired profile. If you deploy the war in a Tomcat container manually or using Jenkins it is going to work properly. _The problem might arise when you deploy using Eclipse. There are some issues with the m2e plugin where even when you build with the -Pdev it takes the activeByDefault profile. It seems that Eclipse is ignoring the profile provided. In that case, right click to the project -> Properties -> Maven and set the active Maven profile._
+
 ## About me
 I am Carlos Becerra - MSc. Softwware & Systems.  But to tell you the truth, I'd prefer to be a passionate developer. You can contact me via:
 
