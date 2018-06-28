@@ -4,7 +4,7 @@
 
 	<groupId>com.wedevol</groupId>
 	<artifactId>mvnspringboot</artifactId>
-	<version>1.0.2</version>
+	<version>1.0.3</version>
 	<packaging>war</packaging>
 	<name>Spring Boot Project with Maven</name>
 	<description>This is a spring boot rest project that handle the application properties per environment using Maven profiles.</description>
@@ -18,7 +18,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.0.1.RELEASE</version>
+		<version>2.0.3.RELEASE</version>
 		<!-- https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-2.0-Release-Notes -->
 	</parent>
 
