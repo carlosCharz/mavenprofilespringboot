@@ -1,9 +1,18 @@
 # Changelog
 All notable changes to the project will be documented in this file, in a per release basis.
 
-## [project_r1_v4] - unreleased
+## [project_r1_v5] - unreleased
 
 -------------------------------------------------------------------------------------
+
+
+## [project_r1_v4] - 2018-11-19
+
+## Modified
+- upgrade spring boot from 2.0.3.RELEASE to 2.1.0.RELEASE https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-2.1.0-M1-Release-Notes
+
+-------------------------------------------------------------------------------------
+
 
 ## [project_r1_v3] - 2018-06-28
 
