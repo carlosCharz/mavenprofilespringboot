@@ -1,7 +1,15 @@
 # Changelog
 All notable changes to the project will be documented in this file, in a per release basis.
 
-## [project_r1_v6] - unreleased
+## [unreleased]
+
+-------------------------------------------------------------------------------
+
+
+## [project_r1_v6] - 2019-03-27
+
+## Modified
+- upgrade spring boot from 2.1.2.RELEASE to 2.1.3.RELEASE
 
 -------------------------------------------------------------------------------------
 
