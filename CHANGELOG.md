@@ -6,6 +6,14 @@ All notable changes to the project will be documented in this file, in a per rel
 -------------------------------------------------------------------------------
 
 
+## [project_r1_v7] - 2019-05-25
+
+## Modified
+- upgrade spring boot from 2.1.3.RELEASE to 2.1.5.RELEASE https://github.com/spring-projects/spring-boot/releases/tag/v2.1.5.RELEASE
+
+-------------------------------------------------------------------------------------
+
+
 ## [project_r1_v6] - 2019-03-27
 
 ## Modified
