@@ -5,6 +5,14 @@ All notable changes to the project will be documented in this file, in a per rel
 
 -------------------------------------------------------------------------------
 
+## [project_r1_v9] - 2019-11-09
+
+## Modified
+- Upgrade spring boot lib from 2.1.6.RELEASE to 2.2.1.RELEASE https://github.com/spring-projects/spring-boot/releases/tag/v2.2.1.RELEASE
+
+
+-----------------------------------------------------------------------------
+
 
 ## [project_r1_v8] - 2019-07-03
 

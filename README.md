@@ -48,6 +48,7 @@ http://localhost:8080/mvnspringboot/params/all
 * [Spring Boot Externalized Configuration](https://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-external-config.html)
 * [Spring Boot traditional deployment](https://docs.spring.io/spring-boot/docs/current/reference/html/howto-traditional-deployment.html)
 * [Spring Boot 2 - Release Notes](https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-2.0-Release-Notes)
+* [Spring Boot 2.2 - Release Notes](https://github.com/spring-projects/spring-booT/wiki/Spring-Boot-2.2.0-M1-Release-Notes)
 
 ## Additional Useful Links
 
