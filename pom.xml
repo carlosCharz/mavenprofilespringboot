@@ -100,14 +100,16 @@
             	<artifactId>maven-antrun-plugin</artifactId>
             	<executions>
                 	<execution>
+                	<!-- The following line is to avoid the PluginManagement section. This execution will be executed on every Project Configuration update. See this: https://www.eclipse.org/m2e/documentation/release-notes-17.html -->
+                	<?m2e execute onConfiguration?>
                     	<phase>generate-resources</phase>
                     	<goals>
                         	<goal>run</goal>
                     	</goals>
                     	<configuration>
-                        	<tasks>
-                            	<echo>Current maven active profile: ${current.profile}</echo>
-                        	</tasks>
+							<target>
+								<echo>Current maven active profile: ${current.profile}</echo>
+							</target>
                     	</configuration>
                 	</execution>
             	</executions>
