@@ -13,7 +13,7 @@ import com.wedevol.mvnspringboot.core.configuration.CustomSetting;
 
 /**
  * REST Param Controller
- * 
+ *
  * @author charz
  *
  */
