@@ -21,7 +21,7 @@ import com.wedevol.mvnspringboot.core.configuration.CustomSetting;
 @RequestMapping("/params")
 public class ParamController {
 
-  protected static final Logger logger = LoggerFactory.getLogger(ParamController.class);
+  private static final Logger logger = LoggerFactory.getLogger(ParamController.class);
 
   @Autowired
   private CustomSetting customSetting;
