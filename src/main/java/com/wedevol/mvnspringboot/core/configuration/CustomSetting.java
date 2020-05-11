@@ -16,62 +16,62 @@ import org.springframework.stereotype.Component;
 @ConfigurationProperties(prefix = "custom")
 public class CustomSetting {
 
-  private static final Logger logger = LoggerFactory.getLogger(CustomSetting.class);
+    private static final Logger logger = LoggerFactory.getLogger(CustomSetting.class);
 
-  private String serverUrl;
+    private String serverUrl;
 
-  private Long serverPort;
+    private Long serverPort;
 
-  private Boolean debuggable;
+    private Boolean debuggable;
 
-  private String imageQuality;
+    private String imageQuality;
 
-  public CustomSetting() {
-    logger.info("Loading custom properties");
-  }
+    public CustomSetting() {
+        logger.info("Loading custom properties");
+    }
 
-  @PostConstruct
-  public void postConstruct() {
-    logger.info("Custom properties -> serverUrl: '{}', serverPort: '{}', debuggable: '{}', imageQuality: '{}'",
-        serverUrl, serverPort, debuggable, imageQuality);
-  }
+    @PostConstruct
+    public void postConstruct() {
+        logger.info("Custom properties -> serverUrl: '{}', serverPort: '{}', debuggable: '{}', imageQuality: '{}'",
+                serverUrl, serverPort, debuggable, imageQuality);
+    }
 
-  public String getServerUrl() {
-    return serverUrl;
-  }
+    public String getServerUrl() {
+        return serverUrl;
+    }
 
-  public void setServerUrl(String serverUrl) {
-    this.serverUrl = serverUrl;
-  }
+    public void setServerUrl(String serverUrl) {
+        this.serverUrl = serverUrl;
+    }
 
-  public Long getServerPort() {
-    return serverPort;
-  }
+    public Long getServerPort() {
+        return serverPort;
+    }
 
-  public void setServerPort(Long serverPort) {
-    this.serverPort = serverPort;
-  }
+    public void setServerPort(Long serverPort) {
+        this.serverPort = serverPort;
+    }
 
-  public Boolean getDebuggable() {
-    return debuggable;
-  }
+    public Boolean getDebuggable() {
+        return debuggable;
+    }
 
-  public void setDebuggable(Boolean debuggable) {
-    this.debuggable = debuggable;
-  }
+    public void setDebuggable(Boolean debuggable) {
+        this.debuggable = debuggable;
+    }
 
-  public String getImageQuality() {
-    return imageQuality;
-  }
+    public String getImageQuality() {
+        return imageQuality;
+    }
 
-  public void setImageQuality(String imageQuality) {
-    this.imageQuality = imageQuality;
-  }
+    public void setImageQuality(String imageQuality) {
+        this.imageQuality = imageQuality;
+    }
 
-  @Override
-  public String toString() {
-    return String.format("{ serverUrl: %s, serverPort: %d, debuggable: %s, imageQuality: %s }", serverUrl, serverPort,
-        debuggable, imageQuality);
-  }
+    @Override
+    public String toString() {
+        return String.format("{ serverUrl: %s, serverPort: %d, debuggable: %s, imageQuality: %s }", serverUrl,
+                serverPort, debuggable, imageQuality);
+    }
 
 }

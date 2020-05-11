@@ -21,16 +21,16 @@ import com.wedevol.mvnspringboot.core.configuration.CustomSetting;
 @RequestMapping("/params")
 public class ParamController {
 
-  private static final Logger logger = LoggerFactory.getLogger(ParamController.class);
+    private static final Logger logger = LoggerFactory.getLogger(ParamController.class);
 
-  @Autowired
-  private CustomSetting customSetting;
+    @Autowired
+    private CustomSetting customSetting;
 
-  @RequestMapping(value = "/all", method = RequestMethod.GET)
-  @ResponseStatus(HttpStatus.OK)
-  public void printAllEnvironmentParamteres() {
-    logger.info("Print all environment variables");
-    logger.info(customSetting.toString());
-  }
+    @RequestMapping(value = "/all", method = RequestMethod.GET)
+    @ResponseStatus(HttpStatus.OK)
+    public void printAllEnvironmentParamteres() {
+        logger.info("Print all environment variables");
+        logger.info(customSetting.toString());
+    }
 
 }

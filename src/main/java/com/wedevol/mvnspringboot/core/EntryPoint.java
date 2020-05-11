@@ -17,18 +17,18 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 @SpringBootApplication
 public class EntryPoint extends SpringBootServletInitializer {
 
-  private static final Logger logger = LoggerFactory.getLogger(EntryPoint.class);
+    private static final Logger logger = LoggerFactory.getLogger(EntryPoint.class);
 
-  private static final String catalinaHome = System.getProperty("catalina.home");
+    private static final String catalinaHome = System.getProperty("catalina.home");
 
-  @Override
-  protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-    logger.info("Catalina home OS variable: {}", catalinaHome);
-    return application.sources(EntryPoint.class);
-  }
+    @Override
+    protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
+        logger.info("Catalina home OS variable: {}", catalinaHome);
+        return application.sources(EntryPoint.class);
+    }
 
-  public static void main(String[] args) {
-    new SpringApplicationBuilder(EntryPoint.class).sources(EntryPoint.class).run(args);
-  }
+    public static void main(String[] args) {
+        new SpringApplicationBuilder(EntryPoint.class).sources(EntryPoint.class).run(args);
+    }
 
 }
