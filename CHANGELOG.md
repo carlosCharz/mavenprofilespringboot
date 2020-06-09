@@ -6,6 +6,21 @@ All notable changes to the project will be documented in this file, in a per rel
 -------------------------------------------------------------------------------
 
 
+## [r1_v12] - 2020-06-09
+
+## Modified
+- Upgrade spring boot lib from 2.2.6.RELEASE to 2.3.0.RELEASE https://github.com/spring-projects/spring-boot/releases/tag/v2.3.0.RELEASE
+- Code format and clean up
+- Apply some UCD detector changes
+- Upgrade Tomcat version to 8.5.56 t https://tomcat.apache.org/tomcat-8.5-doc/changelog.html
+
+
+-----------------------------------------------------------------------------
+
+## Modified
+- Upgrade spring boot lib from 2.2.2.RELEASE to 2.2.6.RELEASE https://github.com/spring-projects/spring-boot/releases/tag/v2.2.6.RELEASE
+- Code format and clean up
+
 ## [project_r1_v11] - 2020-04-11
 
 ## Modified

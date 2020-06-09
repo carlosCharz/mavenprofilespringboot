@@ -19,12 +19,12 @@ public class EntryPoint extends SpringBootServletInitializer {
 
     private static final Logger logger = LoggerFactory.getLogger(EntryPoint.class);
 
-    private static final String catalinaHome = System.getProperty("catalina.home");
+    private static final String CATALINA_HOME = System.getProperty("catalina.home");
 
     // NOTE remove the extends SpringBootServletInitializer in case we do NOT need to customize the spring application
     @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-        logger.info("Catalina home OS variable: {}", catalinaHome);
+        logger.info("Catalina home OS variable: {}", CATALINA_HOME);
         return application.sources(EntryPoint.class);
     }
 
